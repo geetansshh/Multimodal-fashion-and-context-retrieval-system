@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Index files (generated, don't commit)
+index/
+*.npy
+
+# Model cache
+.cache/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+
+# Data files (can be regenerated)
+data/detailed_captions_generated.json
+data/detailed_captions_generated_2.json
+data/detailed_captions_final.json
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Large files
+*.pth
+*.ckpt
+*.bin
+.pytest_cache/
+.coverage
+htmlcov/

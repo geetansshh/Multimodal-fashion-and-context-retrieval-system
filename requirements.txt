@@ -1,0 +1,18 @@
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+Pillow>=9.5.0
+
+# CLIP model
+git+https://github.com/openai/CLIP.git
+
+# Sentence transformers for reranking
+sentence-transformers>=2.2.0
+
+# Transformers for caption generation
+transformers>=4.30.0
+accelerate>=0.20.0
+
+# Utilities
+tqdm>=4.65.0
