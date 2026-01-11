@@ -34,6 +34,10 @@ data/detailed_captions_generated.json
 data/detailed_captions_generated_2.json
 data/detailed_captions_final.json
 
+# Documentation (submission only)
+TECHNICAL_DOCUMENT.md
+README_old.md
+
 # Distribution
 dist/
 build/

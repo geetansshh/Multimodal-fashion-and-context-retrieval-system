@@ -58,8 +58,8 @@ class RetrievalConfig:
     RERANK_TOP_K: Final[int] = 50  # Number of candidates to rerank
     
     # Multi-aspect weights
-    ATTIRE_WEIGHT: Final[float] = 0.6  # Weight for attire matching
-    ENVIRONMENT_WEIGHT: Final[float] = 0.4  # Weight for environment matching
+    ATTIRE_WEIGHT: Final[float] = 0.55  # Weight for attire matching
+    ENVIRONMENT_WEIGHT: Final[float] = 0.45  # Weight for environment matching
 
 
 class FusionConfig:
